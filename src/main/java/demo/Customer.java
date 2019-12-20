@@ -50,12 +50,12 @@ public class Customer {
             
             // show figures for this rental
             result += "\t" + each.getMovie().getTitle() + "\t" +
-            	String.valueOf(thisAmount) + "\n";
+                    thisAmount + "\n";
             totalAmount += thisAmount;            
         }
         
         // add footer lines
-        result += "Amount owed is " + String.valueOf(totalAmount);
+        result += "Amount owed is " + totalAmount;
 
         return result;
     }
