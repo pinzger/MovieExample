@@ -59,17 +59,4 @@ public class Customer {
 
         return result;
     }
-
-//	private double computePriceNewRelease(Rental aRental) {
-//		return aRental.getDaysRented() * 3;
-//	}
-//
-//	private double computePriceRegularMovie(Rental aRental) {
-//		double amount = 2;
-//		if (aRental.getDaysRented() > 2) {
-//		    amount += (aRental.getDaysRented() - 2) * 1.5;
-//		}
-//		return amount;
-//	}
-    
 }
