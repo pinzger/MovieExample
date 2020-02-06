@@ -23,9 +23,7 @@ public class Customer {
         double totalAmount = 0;
         String result = "Rental Record for " + getName() + "\n";
         for (Rental aRental: _rentals) {
-            double thisAmount = 0;
-
-            thisAmount = aRental.computePrice();
+            double thisAmount = aRental.computePrice();
 
             // show figures for this rental
             result += "\t" + aRental.getMovie().getTitle() + "\t" +
@@ -43,9 +41,7 @@ public class Customer {
         double totalAmount = 0;
         String result = "<p>Rental Record for " + getName() + "</br>";
         for (Rental aRental: _rentals) {
-            double thisAmount = 0;
-
-            thisAmount = aRental.computePrice();
+            double thisAmount = aRental.computePrice();
 
             // show figures for this rental
             result += "\t" + aRental.getMovie().getTitle() + "\t" +
