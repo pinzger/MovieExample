@@ -11,12 +11,13 @@ public class Main {
         Movie movie4 = new Movie("Nothing", -10);
                 
         customer.addRental(new Rental(movie1, 2));
-//        customer.addRental(new Rental(movie2, 4));
+        customer.addRental(new Rental(movie2, 4));
 //        customer.addRental(new Rental(movie2, 2));
 //        customer.addRental(new Rental(movie3, 10));
 //        customer.addRental(new Rental(movie3, 2));
 //        customer.addRental(new Rental(movie4, 2));
                 
         System.out.println(customer.statement());
+        System.out.println(customer.htmlStatement());
     }
 }
